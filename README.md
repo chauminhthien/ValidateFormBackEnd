@@ -94,26 +94,15 @@ Example : { point: { type : 'int', notin: [3, 1]} }
 ### + Rule validateEmail
 
 * Syntax : { type : 'email', min: 3, max: 5 }
-
 * option of type email
-
 --- min,
-
 Example : { email: { type : 'email', min: 3} }
-
 --- max,
-
 Example : { email: { type : 'email', max: 5} }
-
 --- in,
-
 Example : { email: { type : 'email', in: [3, 1]} }
-
 --- notin,
-
 Example : { email: { type : 'email', notin: [3, 1]} }
-
 --- base,
-
 Example : { email: { type : 'email', base: /^1111$/} }
 
