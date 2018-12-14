@@ -91,18 +91,50 @@ Example : { point: { type : 'int', in: [3, 1]} }
 
 Example : { point: { type : 'int', notin: [3, 1]} }
 
-### + Rule validateEmail
+### + Rule Email
 
 * Syntax : { type : 'email', min: 3, max: 5 }
+
 * option of type email
+
 --- min,
+
 Example : { email: { type : 'email', min: 3} }
+
 --- max,
+
 Example : { email: { type : 'email', max: 5} }
+
 --- in,
+
 Example : { email: { type : 'email', in: [3, 1]} }
+
 --- notin,
+
 Example : { email: { type : 'email', notin: [3, 1]} }
+
 --- base,
+
 Example : { email: { type : 'email', base: /^1111$/} }
+
+### + Rule Array
+
+* Syntax : { type : 'arr', min: 3, max: 5 }
+
+* option of type Array
+
+--- min,
+
+Example : { Array: { type : 'email', min: 3} }
+
+--- max,
+
+Example : { Array: { type : 'email', max: 5} }
+
+### + Rule Bool
+
+* Syntax : { type : 'bool',}
+
+Example : { bool: { type : 'bool'} }
+
 
