@@ -39,47 +39,81 @@ var Validate        = require('./libs/validate');
 ### + Rule String
 
 * Syntax : { type : 'string', min: 3, max: 5 }
+
 * option of type string
+
 --- min,
+
 Example : { name: { type : 'string', min: 3} }
+
 --- max,
+
 Example : { name: { type : 'string', max: 5} }
+
 --- in,
+
 Example : { name: { type : 'string', in: [3, 1]} }
+
 --- notin,
+
 Example : { name: { type : 'string', notin: [3, 1]} }
+
 --- base,
+
 Example : { name: { type : 'string', base: /^1111$/} }
+
 
 ### + Rule Phone
 
 * Syntax : { type : 'phone' }
+
 Example : { name: { type : 'phone' } }
 
 ### + Rule Int
 
 * Syntax : { type : 'int', min: 3, max: 5 }
+
 * option of type int
+
 --- min,
+
 Example : { point: { type : 'int', min: 3} }
+
 --- max,
+
 Example : { point: { type : 'int', max: 5} }
+
 --- in,
+
 Example : { point: { type : 'int', in: [3, 1]} }
+
 --- notin,
+
 Example : { point: { type : 'int', notin: [3, 1]} }
 
 ### + Rule validateEmail
 
 * Syntax : { type : 'email', min: 3, max: 5 }
+
 * option of type email
+
 --- min,
+
 Example : { email: { type : 'email', min: 3} }
+
 --- max,
+
 Example : { email: { type : 'email', max: 5} }
+
 --- in,
+
 Example : { email: { type : 'email', in: [3, 1]} }
+
 --- notin,
+
 Example : { email: { type : 'email', notin: [3, 1]} }
+
 --- base,
+
 Example : { email: { type : 'email', base: /^1111$/} }
+
